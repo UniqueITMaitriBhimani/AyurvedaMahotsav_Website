@@ -3209,7 +3209,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-partialview-template .ms-slide-info {
 	text-align: center;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	width: 100%;
 }
 
