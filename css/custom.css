@@ -13,8 +13,8 @@
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1;
-    letter-spacing: 4px;
-    color: #292929;
+    letter-spacing: 2px;
+    color: #c32026;
 	border-color: #292929;
     margin-bottom: 30px;
     margin-left: 5rem;
@@ -135,7 +135,7 @@
 }
 
 .icon {
-    color: #ffc107;
+    color: #fac920;
     font-size: 24px;
 }
 
@@ -149,7 +149,7 @@
 }
 
 .counter {
-    color: #ffc107;
+    color: #fac920;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -184,14 +184,14 @@
 }
 
 .registration-home-section-header h2 {
-    color: #292929;
+    color: #c32026;
     border-color: #292929;
     font-size: 36px;
     margin-bottom: 0px;
     font-weight: 800;
     text-transform: uppercase;
     line-height: 1;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-align: start;
 }
 
@@ -224,7 +224,7 @@
 .registration-home-icon-container {
     width: 56px;
     height: 56px;
-    margin: 0 auto 16px;
+    margin: 0 10px 0 16px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -312,6 +312,184 @@
         max-width: 300px;
     }
 }
+/* btn click open form  */
+/* Modal */
+/* Modal */
+ /* Card Styles */
+ .registration-home-reg-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.registration-home-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.registration-home-icon-container {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.registration-home-icon-container svg {
+    width: 100%;
+    height: 100%;
+    fill: #007bff;
+}
+
+.registration-home-register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.registration-home-register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Popup Form Styles */
+/* Modal */
+.home-Registration-sec-modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Modal Content */
+.home-Registration-sec-modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 4rem;
+}
+
+/* Close Button */
+.home-Registration-sec-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #777;
+}
+
+.home-Registration-sec-close-btn:hover {
+    color: #333;
+}
+
+/* Form Styling */
+.home-Registration-sec-modal-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.home-Registration-sec-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.home-Registration-sec-input,
+.home-Registration-sec-select,
+.home-Registration-sec-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.home-Registration-sec-textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Submit Button */
+.home-Registration-sec-submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-Registration-sec-submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .home-Registration-sec-modal-content {
+        width: 90%;
+    }
+}
+#formModal {
+    display: none; /* Ensure modal is hidden on load */
+}
+
+/* Registration Card Styling */
+.registration-home-reg-card {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.registration-home-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.registration-home-icon-container svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.registration-home-register-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.registration-home-register-btn:hover {
+    background-color: #45a049;
+}
+
 /* footer */
 .footer-icon-font i{
     font-size: 20px;
@@ -327,7 +505,70 @@
 .textwidget{
     font-size: 14px;
 }
+.textwidget a {
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
 
+.textwidget a:hover {
+    padding-left: 10px; /* Creates a slight shift right on hover */
+    color: #c32026; /* Replace with your desired hover color */
+}
+
+.textwidget a:hover i {
+    transform: translateX(5px); /* Makes the arrow icon move slightly right */
+    transition: transform 0.3s ease;
+}
+.footer-contact-detail{
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.footer-contact-detail:hover{
+    padding-left: 10px; /* Creates a slight shift right on hover */
+    color: #c32026; /* Replace with your desired hover color */
+}
+.footer-contact-detail:hover{
+    transform: translateX(5px); /* Makes the arrow icon move slightly right */
+    transition: transform 0.3s ease;
+}
+.footer-icon-font {
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.footer-icon-font i {
+    font-size: 24px; /* Adjust size as needed */
+    color: #ffffff; /* Replace with your icon's default color */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect - choose one or combine them */
+
+/* Option 1: Scale up and color change */
+.footer-icon-font:hover i {
+    transform: scale(1.2);
+    color: #c32026; /* Replace with your desired hover color */
+}
+
+/* Option 2: Bounce effect */
+.footer-icon-font:hover i {
+    animation: bounce 0.5s ease infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Option 3: Rotation effect */
+.footer-icon-font:hover i {
+    transform: rotate(360deg);
+}   
 /* delegates page style */
 
 /* hero section */
@@ -414,7 +655,7 @@
   }
 
   /* open form  */
-  /* color:  red#ec1c24, black#212d31, grey#343a40, white#eee  */
+  /* color:  red#fac920, black#212d31, grey#343a40, white#eee  */
 * {
     box-sizing: border-box;
   }
@@ -452,11 +693,11 @@
     display: block;
     width: 10%;
     padding-top: 10px;
-    border-bottom: 3px solid #ec1c24;
+    border-bottom: 3px solid #fac920;
   }
   
   .highlight-text {
-    color: #ec1c24;
+    color: #fac920;
   }
   
   .hightlight-contact-info {
@@ -497,7 +738,7 @@
   
   .form-input:focus,
   textarea:focus{
-    outline: 1.5px solid #ec1c24;
+    outline: 1.5px solid #fac920;
   }
   
   .form-input,
@@ -557,20 +798,20 @@
   
   button, .submit-btn {
     background: transparent;
-    border: 1px solid #ec1c24;
-    color: #ec1c24;
+    border: 1px solid #fac920;
+    color: #fac920;
     border-radius: 15px;
     padding: 5px 20px;
     text-transform: uppercase;
   }
   button:hover, .submit-btn:hover,
   button:focus , .submit-btn:focus{
-    background: #ec1c24;
+    background: #fac920;
     outline: 0;
     color: #eee;
   }
   .error {
-    color: #ec1c24;
+    color: #fac920;
   }
   
   /* Basic Description */
@@ -682,14 +923,16 @@
 
 /* Title Styling */
 .inquiry-title {
-    font-size: 26px;
     font-weight: bold;
-    color: #000;
+    color: #c32026;
     margin-bottom: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
+    text-transform: uppercase;  
     position: relative;
     display: inline-block;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 2px;
 }
 
 /* Title Underline */
@@ -697,7 +940,7 @@
     content: "";
     width: 50px;
     height: 4px;
-    background: #ff6600;
+    background: #fac920;
     display: block;
     margin: 8px auto 0;
     border-radius: 2px;
@@ -854,9 +1097,14 @@ h3 {
 }
 
 .about-header h1 {
-    color: #2C3E50;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
     position: relative;
     display: inline-block;
 }
@@ -869,7 +1117,7 @@ h3 {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 .about-content {
@@ -884,7 +1132,7 @@ h3 {
 }
 
 .about-text h2 {
-    color: #E67E22;
+    color: #fac920;
     font-size: 1.8em;
     margin-bottom: 20px;
 }
@@ -920,11 +1168,11 @@ h3 {
 }
 
 .highlight-box {
-    background: #FFF5E6;
+    background: #dcdcdc;
     padding: 30px;
     border-radius: 10px;
     margin-top: 30px;
-    border-left: 4px solid #E67E22;
+    border-left: 4px solid #fac920;
 }
 
 @media (max-width: 768px) {
@@ -942,8 +1190,8 @@ h3 {
 }
   /* <!-- event History --> */
   .history-section {
-    background-color: #FDF5E6;
-    padding: 80px 20px;
+    background-color: #dcdcdc;
+    padding: 35px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -958,9 +1206,14 @@ h3 {
 }
 
 .history-header h2 {
-    color: #2C3E50;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
     position: relative;
     display: inline-block;
 }
@@ -973,14 +1226,14 @@ h3 {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 .history-header p {
     color: #666;
     font-size: 1.2em;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 17px auto;
 }
 
 .timeline {
@@ -993,7 +1246,7 @@ h3 {
     content: '';
     position: absolute;
     width: 4px;
-    background-color: #E67E22;
+    background-color: #fac920;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -1013,7 +1266,7 @@ h3 {
     width: 20px;
     height: 20px;
     background-color: white;
-    border: 4px solid #E67E22;
+    border: 4px solid #fac920;
     border-radius: 50%;
     top: 45%;
     right: -12px;
@@ -1042,7 +1295,7 @@ h3 {
 
 .timeline-year {
     font-size: 1.8em;
-    color: #E67E22;
+    color: #fac920;
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -1072,7 +1325,7 @@ h3 {
 
 .stat-number {
     font-size: 1.5em;
-    color: #E67E22;
+    color: #fac920;
     font-weight: bold;
 }
 
@@ -1126,9 +1379,14 @@ h3 {
 }
 
 .mission-vision-section-section-header h2 {
-    color: #2C3E50;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
     position: relative;
     display: inline-block;
 }
@@ -1141,7 +1399,7 @@ h3 {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 .mission-vision-section-section-header p {
@@ -1149,6 +1407,7 @@ h3 {
     font-size: 1.1em;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 1rem;
 }
 
 .mission-vision-section-cards-container {
@@ -1179,7 +1438,7 @@ h3 {
     left: 0;
     width: 100%;
     height: 5px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 .mission-vision-section-card-icon {
@@ -1196,7 +1455,7 @@ h3 {
 .mission-vision-section-card-icon svg {
     width: 30px;
     height: 30px;
-    fill: #E67E22;
+    fill: #fac920;
 }
 
 .mission-vision-section-card h3 {
@@ -1224,7 +1483,7 @@ h3 {
 
 .mission-vision-section-key-point::before {
     content: '•';
-    color: #E67E22;
+    color: #fac920;
     font-size: 1.5em;
     margin-right: 10px;
 }
@@ -1291,7 +1550,7 @@ h3 {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: linear-gradient(90deg, #E67E22, #F1C40F);
+    background: linear-gradient(90deg, #fac920, #F1C40F);
     border-radius: 2px;
 }
 
@@ -1343,7 +1602,7 @@ h3 {
 .our-mission-vision-card-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, #E67E22, #F1C40F);
+    background: linear-gradient(135deg, #fac920, #F1C40F);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -1403,7 +1662,7 @@ h3 {
 
 .our-mission-vision-key-point::before {
     content: '→';
-    color: #E67E22;
+    color: #fac920;
     font-size: 1.2em;
     margin-right: 15px;
     font-weight: bold;
@@ -1423,7 +1682,7 @@ h3 {
 
 .our-mission-vision-stat-number {
     font-size: 2em;
-    color: #E67E22;
+    color: #fac920;
     font-weight: bold;
     margin-bottom: 5px;
 }
@@ -1484,9 +1743,14 @@ h3 {
 }
 
 .our-about-par-section-header h2 {
-    color: #2C3E50;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
     position: relative;
     display: inline-block;
 }
@@ -1499,7 +1763,7 @@ h3 {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 /* Top Logos Section */
@@ -1546,7 +1810,7 @@ h3 {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 2px dashed #E67E22;
+    border: 2px dashed #fac920;
     border-radius: 50%;
     animation: rotate 20s linear infinite;
 }
@@ -1560,7 +1824,7 @@ h3 {
 .our-about-par-divider {
     width: 100%;
     height: 2px;
-    background: linear-gradient(to right, transparent, #E67E22, transparent);
+    background: linear-gradient(to right, transparent, #fac920, transparent);
     margin: 40px 0;
 }
 
@@ -1616,7 +1880,7 @@ h3 {
 }
 
 .our-about-par-partner-type {
-    color: #E67E22;
+    color: #fac920;
     font-size: 0.9em;
 }
 
@@ -1678,7 +1942,7 @@ h3 {
     transform: translateX(-50%);
     width: 80px;
     height: 3px;
-    background: #E67E22;
+    background: #fac920;
 }
 
 .section-header p {
@@ -1750,7 +2014,7 @@ h3 {
 }
 
 .partner-type {
-    color: #E67E22;
+    color: #fac920;
     font-size: 0.9em;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -1814,4 +2078,560 @@ h3 {
     .partner-content {
         padding: 30px 15px 15px;
     }
+}
+
+/* call for paper page style */
+/* firste section */
+.call-papers-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 100%);
+}
+
+.call-papers-section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.call-papers-section-section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    position: relative;
+}
+
+.call-papers-section-section-title h2 {
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: start;
+    margin-bottom: 22px;
+    text-align: center;
+
+}
+
+.call-papers-section-section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #fac920;
+    margin: 0 auto;
+}
+
+.call-papers-section-papers-content {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.call-papers-section-papers-info {
+    margin-bottom: 25px;
+    line-height: 1.6;
+    color: #444;
+}
+
+.call-papers-section-highlight-box {
+    background-color: #ffebecbf;
+    border-left: 4px solid #c32026;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.call-papers-section-important-note {
+    color: #c32026;
+    font-weight: bold;
+}
+
+.call-papers-section-guidelines {
+    margin-top: 30px;
+}
+
+.call-papers-section-guidelines ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.call-papers-section-guidelines li {
+    position: relative;
+    padding: 10px 0 10px 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.call-papers-section-guidelines li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+}
+
+.call-papers-section-website-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call-papers-section-website-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .call-papers-section {
+        padding: 40px 15px;
+    }
+
+    .call-papers-section-section-title h2 {
+        font-size: 26px;
+    }
+
+    .call-papers-section-papers-content {
+        padding: 20px;
+    }
+}
+
+/* <!-- Important Deadlines --> */
+.agd-important-details {
+    padding: 50px 20px;
+    background: linear-gradient(to right, #f8f9fa, #ffffff);
+}
+
+.important-details-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.important-details-section-header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.important-details-section-header h2 {
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: start;
+    margin-bottom: 22px;
+    position: relative;
+    display: inline-block;
+}
+.important-details-section-header h2::after{
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #fac920;
+}
+.Sub-theme-Ayurveda-paper-main-header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #fac920;
+}
+
+.agd-important-details-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.agd-important-details-item {
+    display: flex;
+    align-items: center;
+    padding: 25px 30px;
+    border-bottom: 1px solid #eee;
+    transition: all 0.3s ease;
+}
+
+.agd-important-details-item:last-child {
+    border-bottom: none;
+}
+
+.agd-important-details-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(10px);
+}
+
+.agd-important-details-date {
+    flex: 0 0 150px;
+    padding: 10px 20px;
+    background-color: #c32026;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.agd-important-details-content {
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .agd-important-details-item {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .agd-important-details-date {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .agd-important-details-content {
+        text-align: center;
+    }
+
+    .agd-important-details-item:hover {
+        transform: translateX(0);
+        background-color: #f8f9fa;
+    }
+}
+
+/* Sub-theme: Ayurveda */
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.Sub-theme-Ayurveda-paper-ayurveda-unique {
+    min-height: 100vh;
+    background: #f8f9fa;
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.Sub-theme-Ayurveda-paper-bg-pattern {
+    position: fixed;
+    inset: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(0, 206, 201, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(9, 132, 227, 0.05) 0%, transparent 50%);
+    z-index: 0;
+}
+
+.Sub-theme-Ayurveda-paper-main-header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+    z-index: 1;
+}
+
+.Sub-theme-Ayurveda-paper-main-header h1 {
+    color: #c32026;
+    border-color: #292929;
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: start;
+    position: relative;
+    display: inline-block;
+}
+
+
+.Sub-theme-Ayurveda-paper-cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.Sub-theme-Ayurveda-paper-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.Sub-theme-Ayurveda-paper-card.expandable {
+    cursor: pointer;
+}
+
+.Sub-theme-Ayurveda-paper-card-front {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: white;
+    z-index: 2;
+}
+
+.Sub-theme-Ayurveda-paper-card-label {
+    background: linear-gradient(135deg, #e54f5491, #c32026);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.Sub-theme-Ayurveda-paper-card h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #2d3436;
+    flex-grow: 1;
+    font-weight: 600;
+}
+
+.Sub-theme-Ayurveda-paper-expand-icon {
+    font-size: 2rem;
+    color: #c32026;
+    transition: transform 0.3s ease;
+}
+
+.Sub-theme-Ayurveda-paper-card-content {
+    max-height: 0;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    background: #f8f9fa;
+    overflow: hidden;
+}
+
+.Sub-theme-Ayurveda-paper-card.active .Sub-theme-Ayurveda-paper-card-content {
+    max-height: 1000px;
+    opacity: 1;
+    padding: 30px;
+}
+
+.Sub-theme-Ayurveda-paper-card.active .Sub-theme-Ayurveda-paper-expand-icon {
+    transform: rotate(45deg);
+}
+
+.Sub-theme-Ayurveda-paper-content-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0;
+}
+
+.Sub-theme-Ayurveda-paper-card.active .Sub-theme-Ayurveda-paper-content-item {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.Sub-theme-Ayurveda-paper-card.active .Sub-theme-Ayurveda-paper-content-item:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.item-dot {
+    width: 12px;
+    height: 12px;
+    background: linear-gradient(135deg, #00cec9, #0984e3);
+    border-radius: 50%;
+}
+
+.Sub-theme-Ayurveda-paper-content-item p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2d3436;
+}
+
+.Sub-theme-Ayurveda-paper-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.Sub-theme-Ayurveda-paper-grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #2d3436;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.Sub-theme-Ayurveda-paper-card.active .grid-item {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(1) { animation-delay: 0.1s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(2) { animation-delay: 0.2s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(3) { animation-delay: 0.3s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(4) { animation-delay: 0.4s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(5) { animation-delay: 0.5s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(6) { animation-delay: 0.6s; }
+.Sub-theme-Ayurveda-paper-card.active .grid-item:nth-child(7) { animation-delay: 0.7s; }
+
+.Sub-theme-Ayurveda-paper-grid-item:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, #00cec9, #0984e3);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .Sub-theme-Ayurveda-paper-main-header h1 {
+        font-size: 3rem;
+    }
+    
+    .Sub-theme-Ayurveda-paper-card-front {
+        padding: 15px;
+    }
+    
+    .Sub-theme-Ayurveda-paper-card h2 {
+        font-size: 18px;
+    }
+    
+    .Sub-theme-Ayurveda-paper-grid-layout {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
+
+
+
+
+
+
+
+
+
+.Sub-theme-Ayurveda-section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6f8ff 0%, #ffffff 100%);
+}
+
+.Sub-theme-Ayurveda-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Sub-theme-Ayurveda-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Sub-theme-Ayurveda-title h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.Sub-theme-Ayurveda-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #00b894, #00cec9);
+    border-radius: 2px;
+}
+
+.Sub-theme-Ayurveda-theme-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.Sub-theme-Ayurveda-theme-card {
+    background: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.Sub-theme-Ayurveda-theme-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.Sub-theme-Ayurveda-theme-title {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f2f5;
+    position: relative;
+}
+
+.Sub-theme-Ayurveda-theme-title::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(90deg, #00b894, #00cec9);
+}
+
+.Sub-theme-Ayurveda-theme-list {
+    list-style: none;
+}
+
+.Sub-theme-Ayurveda-theme-list li {
+    padding: 12px 0;
+    padding-left: 28px;
+    position: relative;
+    color: #4a5568;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.Sub-theme-Ayurveda-theme-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(135deg, #00b894, #00cec9);
+    border-radius: 50%;
+}
+
+.Sub-theme-Ayurveda-theme-list li:hover {
+    color: #2c3e50;
+    transform: translateX(5px);
 }
