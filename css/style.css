@@ -335,7 +335,7 @@ ol {
 
 body {
 	line-height: 1.7;
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", serif !important;
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
@@ -5127,7 +5127,7 @@ body .widget_recent_comments ul li {
 .widget_nav_menu ul li:before,
 .widget_meta ul li:before {
 	content: "\f105";
-	font-family: FontAwesome;
+	
 	text-align: center;
 	position: absolute;
 	left: 0px;
@@ -5316,7 +5316,7 @@ ul.gdlr-twitter-widget li:before {
     float: left;
     margin-right: 20px;
     margin-top: 2px;
-    font-family: FontAwesome; 
+     
     content: '\f099'; 
 }
 ul.gdlr-twitter-widget li .gdlr-twitter {
@@ -5732,25 +5732,25 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .icon-angle-left:before {
 	content: "\f104";
-	font-family: fontAwesome;
+	
 	font-style: normal;
 }
 
 .icon-angle-right:before {
 	content: "\f105";
-	font-family: fontAwesome;
+	
 	font-style: normal;
 }
 
 .icon-minus:before {
 	content: "\f068";
-	font-family: fontAwesome;
+	
 	font-style: normal;
 }
 
 .icon-plus:before {
 	content: "\f067";
-	font-family: fontAwesome;
+	
 	font-style: normal;
 }
 

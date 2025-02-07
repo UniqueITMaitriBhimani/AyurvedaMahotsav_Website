@@ -46,20 +46,9 @@ body {
 	background-image: url('../upload/page-title-background.jpg');
 }
 
-
-.gdlr-info-font,
-ul.gdlr-twitter-widget .gdlr-twitter-time,
-.gdlr-page-caption {
-	font-family: "Droid Serif";
-}
-
-.gdlr-navigation {
-	font-family: "Raleway";
-}
-
-.gdlr-slider-item {
-	font-family: "Raleway";
-}
+*{
+    font-family: "Poppins", serif !important;
+  }
 
 body {
 	font-size: 13px;
