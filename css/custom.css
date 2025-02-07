@@ -107,9 +107,6 @@
     font-weight: 900;
     font-style: italic;
   }
-  *{
-    font-family: "Poppins", serif !important;
-  }
 /* slider home  */
 .slider-container {
     max-width: 1200px;
@@ -629,6 +626,7 @@
     transition: transform 0.3s ease;
 }
 .footer-contact-detail{
+    font-family: 'robot', sans-serif !important;
     transition: all 0.3s ease;
     text-decoration: none;
 }
