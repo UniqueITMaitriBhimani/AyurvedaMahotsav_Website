@@ -1100,10 +1100,10 @@ img.gdlr-full-boxed-background {
 	float: right;
 }
 
-.copyright-wrapper {
+/* .copyright-wrapper {
 	border-top-width: 1px;
 	border-top-style: solid;
-}
+} */
 
 .copyright-container {
 	padding: 25px 0px;
@@ -1204,6 +1204,7 @@ body.search .page-not-found-block {
 
 .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium {
 	font-size: 26px;
+	color: #c32026;
 }
 
 .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-small {
@@ -1280,6 +1281,7 @@ body.search .page-not-found-block {
 
 .gdlr-title-item .gdlr-item-title-wrapper .gdlr-item-title {
 	font-size: 37px;
+	color: #fff;
 }
 
 .gdlr-title-item .gdlr-item-title-wrapper .gdlr-item-title.gdlr-title-medium {
@@ -4739,6 +4741,7 @@ body.single .gdlr-blog-full {
 /*--- ticket item ---*/
 .gdlr-ticket-item {
 	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .gdlr-ticket-item .gdlr-ticket-head {
@@ -4785,6 +4788,10 @@ body.single .gdlr-blog-full {
 	margin-bottom: 13px;
 	font-size: 15px;
 	font-style: italic;
+	color: #000;
+	font-weight: 400;
+	letter-spacing: 0px;
+	text-transform: lowercase;
 }
 
 .gdlr-ticket-item .gdlr-ticket-button {
@@ -4792,6 +4799,7 @@ body.single .gdlr-blog-full {
 	display: block;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 20px;
 }
 
 /*--- lightbox form ---*/
@@ -4949,15 +4957,19 @@ body .fancybox-skin {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 2px;
+	color: #fff;
 	letter-spacing: 2px;
 }
 
 .gdlr-location-item .gdlr-location-place i {
 	margin-right: 15px;
 }
-
-.gdlr-location-item .gdlr-location-content {
-	margin-top: 15px;
+.gdlr-location-item .gdlr-location-place{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 4;
 }
 
 .gdlr-location-item .gdlr-location-info {
@@ -4966,14 +4978,23 @@ body .fancybox-skin {
 	padding-top: 5px;
 	border-top-width: 2px;
 	border-top-style: solid;
+	border-top-color: #fff;
 }
 
 .gdlr-location-item .gdlr-location-info span {
 	margin-left: 30px;
+    font-size: 16px;
+    color: #Fff;
+    font-weight: 400;
+    letter-spacing: 0px;
 }
 
 .gdlr-location-item .gdlr-location-info span:first-child {
 	margin-left: 0px;
+    font-size: 16px;
+    color: #Fff;
+    font-weight: 400;
+    letter-spacing: 0px;
 }
 
 .gdlr-location-item .gdlr-location-info span i {
@@ -5732,14 +5753,16 @@ only screen and (min-device-pixel-ratio: 2) {
 
 .icon-angle-left:before {
 	content: "\f104";
-	
+	color: white;
 	font-style: normal;
+	font-family: FontAwesome;
 }
 
 .icon-angle-right:before {
 	content: "\f105";
-	
+	color: white;
 	font-style: normal;
+	font-family: FontAwesome;
 }
 
 .icon-minus:before {

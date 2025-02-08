@@ -8,7 +8,7 @@
     <meta name="viewport" content="initial-scale=1.0" />
 
     <title>Home</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.min.css">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <link
       rel="stylesheet"
@@ -125,8 +125,24 @@
                   <li class="menu-itemmenu-item current-menu-item gdlr-normal-menu">
                     <a href="delegate.html">DELEGATE</a>
                   </li>
-                  <li class="menu-itemmenu-item gdlr-normal-menu">
-                    <a href="exhibitor.html">EXHIBITOR</a>
+                  
+                  <li
+                    class="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu"
+                  >
+                    <a class="sf-with-ul" aria-current="page">Exhibitor</a>
+                    <ul class="sub-menu" style="display: none">
+                      <li class="menu-item">
+                        <a href="docs/exhibitor-brochure.pdf" download="Exhibitor-Brochure.pdf" target="_blank">Exhibitor Brochure</a>
+
+                      </li>
+                      <li class="menu-item">
+                        <a href="exhibitor-registration.html">Exhibitor Registration</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                        <a href="our-past-Participants.html">Our Past Participants</a>
+                      </li>
+                    </ul>
                   </li>
                   <li class="menu-itemmenu-item gdlr-normal-menu">
                     <a href="call-form-paper.html">CALL FOR PAPERS</a>
@@ -175,8 +191,23 @@
                   >
                     <a href="delegate.html">DELEGATE</a>
                   </li>
-                  <li class="menu-itemmenu-item gdlr-normal-menu">
-                    <a href="exhibitor.html">EXHIBITOR</a>
+                  <li
+                    class="menu-item menu-item-has-childrenmenu-item menu-item-has-children gdlr-normal-menu"
+                  >
+                    <a class="sf-with-ul" aria-current="page">Exhibitor</a>
+                    <ul class="sub-menu" style="display: none">
+                      <li class="menu-item">
+                        <a href="docs/exhibitor-brochure.pdf" download="Exhibitor-Brochure.pdf" target="_blank">Exhibitor Brochure</a>
+
+                      </li>
+                      <li class="menu-item">
+                        <a href="exhibitor-registration.html">Exhibitor Registration</a>
+                      </li>
+                      
+                      <li class="menu-item">
+                        <a href="our-past-Participants.html">Our Past Participants</a>
+                      </li>
+                    </ul>
                   </li>
                   <li
                     class="menu-itemmenu-item gdlr-normal-menu"
@@ -223,46 +254,35 @@
           <div class="with-sidebar-wrapper gdlr-type-no-sidebar">
             <!-- hero section -->
             <section id="content-section-1">
-              <!--Slider-->
-              <div id="slider">
-                <div class="slide" style="background: dodgerBlue">
-                  <img
-                    src="https://img.fotocommunity.com/peacefull-95e65145-d050-4957-9ddc-85dd60689d45.jpg?height=500"
-                  />
+              <!-- hero section  -->
+            <div class="delegate-hero-slider">
+              <div class="delegate-hero-carousel">
+                <div class="delegate-hero-cell" style="background-image: url('./images/home/aud-img1.avif'); background-repeat: no-repeat;">
+                  <div class="delegate-hero-overlay"></div>
+                  <div class="delegate-hero-content">
+                    <h2>Connect with Ayurvedic Experts</h2>
+                    <p>A dynamic space for learning, collaboration, and growth.</p>
+                    <a href="./images/home/aud-img-2.avif" target="_blank" class="delegate-hero-btn">Learn more</a>
+                  </div>
                 </div>
-
-                <div class="slide" style="background: coral">
-                  <img
-                    src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/sunset-storm-haystack-rock-canon-beach-oregon-coast-tl-mair.jpg"
-                  />
+                <div class="delegate-hero-cell" style="background-image: url('./images/home/aud-img-3.avif');">
+                  <div class="delegate-hero-overlay"></div>
+                  <div class="delegate-hero-content">
+                    <h2>Enhance Your Practice</h2>
+                    <p>Gain insights to elevate your Ayurvedic journey.</p>
+                    <a href="./images/home/aud-img-3.avif" target="_blank" class="delegate-hero-btn">Learn more</a> 
+                  </div>
                 </div>
-
-                <div class="slide" style="background: crimson">
-                  <img
-                    src=" https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/1-tourists-at-eiffel-tower-paris-panoramic-images.jpg"
-                  />
+                <div class="delegate-hero-cell" style="background-image: url('./images/home/aud-img-2.avif');">
+                  <div class="delegate-hero-overlay"></div>
+                  <div class="delegate-hero-content">
+                    <h2>Lifelong Connections</h2>
+                    <p>Join a global network of holistic healing professionals.</p>
+                    <a href="./images/home/aud-img1.avif" target="_blank" class="delegate-hero-btn">Learn more</a>
+                  </div>
                 </div>
-
-                <div class="slide" style="background: crimson">
-                  <img
-                    src=" https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/1-tourists-at-eiffel-tower-paris-panoramic-images.jpg"
-                  />
-                </div>
-
-                <!--Controlling arrows-->
-                <span class="controls" onclick="prevSlide(-1)" id="left-arrow"
-                  ><i class="fa fa-arrow-left" aria-hidden="true"></i>
-                </span>
-                <span class="controls" id="right-arrow" onclick="nextSlide(1)"
-                  ><i class="fa fa-arrow-right" aria-hidden="true"></i>
-                </span>
               </div>
-              <div id="dots-con">
-                <span class="dot"></span><span class="dot"></span
-                ><span class="dot"></span><span class="dot"></span>
-              </div>
-
-              <div class="clear"></div>
+            </div>
             </section>
 
             <!-- price tickets -->
@@ -272,7 +292,6 @@
                 id="gdlr-parallax-wrapper-3"
                 data-bgspeed="0"
                 style="
-                  background-image: url('upload/ticket-bg.jpg');
                   padding-top: 100px;
                   padding-bottom: 65px;
                   background-size: cover;
@@ -297,16 +316,14 @@
                         <div class="gdlr-item gdlr-ticket-item">
                           <div class="gdlr-ticket-head">
                             <div class="gdlr-ticket-head-title">
-                              One Day Pass
+                              General Delegates
                             </div>
-                            <div class="gdlr-ticket-head-price">Free</div>
+                            <div class="gdlr-ticket-head-price">4000*</div>
                           </div>
                           <div class="gdlr-ticket-content gdlr-info-font">
-                            <p>One Day Access</p>
-                            <p>Coffee Break</p>
-                            <p>Lunch(International Buffet)</p>
-                            <p>Document Sheets</p>
-                            <p>50USD Voucher For Next Event</p>
+                            <p style="text-transform: uppercase;">INR</p>
+                            <p>(* 18% GST APPLICABLE)</p>
+                            <p>Total = 400 + 720 = INR 4720</p>
                           </div>
                           <a class="gdlr-ticket-button"  id="bookNowBtn1">Book Now</a>
                         </div>
@@ -315,9 +332,9 @@
                         <div class="gdlr-item gdlr-ticket-item">
                           <div class="gdlr-ticket-head" style="padding: 44px 20px 45px;">
                             <div class="gdlr-ticket-head-title">
-                              Four Day Passes
+                              BAMS Students
                             </div>
-                            <div class="gdlr-ticket-head-price">750.00 USD</div>
+                            <div class="gdlr-ticket-head-price">3500*</div>
                             <div
                               class="gdlr-ticket-head-featured gdlr-info-font"
                             >
@@ -325,11 +342,9 @@
                             </div>
                           </div>
                           <div class="gdlr-ticket-content gdlr-info-font" style="    padding: 43px 20px 44px;">
-                            <p>Four&nbsp;Day Access</p>
-                            <p>Coffee Break</p>
-                            <p>Lunch(International Buffet)</p>
-                            <p>Document Sheets</p>
-                            <p>100USD Voucher For Next Event</p>
+                            <p style="text-transform: uppercase;">INR</p>
+                            <p>(* 18% GST APPLICABLE)</p>
+                            <p>Total = 400 + 720 = INR 4720</p>
                           </div>
                           <div class="gdlr-lightbox-form" id="gdlr-form-1">
                             <div class="gdlr-paypal-form-wrapper">
@@ -419,16 +434,14 @@
                         <div class="gdlr-item gdlr-ticket-item">
                           <div class="gdlr-ticket-head">
                             <div class="gdlr-ticket-head-title">
-                              Two Day Passes
+                              Sport Registration
                             </div>
-                            <div class="gdlr-ticket-head-price">580.00 USD</div>
+                            <div class="gdlr-ticket-head-price">5000</div>
                           </div>
                           <div class="gdlr-ticket-content gdlr-info-font">
-                            <p>Two Day Access</p>
-                            <p>Coffee Break</p>
-                            <p>Lunch(International Buffet)</p>
-                            <p>Document Sheets</p>
-                            <p>70USD Voucher For Next Event</p>
+                            <p style="text-transform: uppercase;">INR</p>
+                           <p>(* 18% GST APPLICABLE)</p>
+                            <!--  <p>Total = 400 + 720 = INR 4720</p> -->
                           </div>
                           <div class="gdlr-lightbox-form" id="gdlr-form-2">
                             <div class="gdlr-paypal-form-wrapper">
@@ -597,8 +610,7 @@
                       </div>
                   
                       <p style="margin-bottom: 5rem;">
-                          <input type="submit" class="submit-btn" value="Pay" onclick="checkValidations()" />
-                          <input type="submit" class="submit-btn" value="Book Accommodation" onclick="checkValidations()" />
+                          <input type="submit" class="submit-btn" value="Registration" onclick="checkValidations()" />
                       </p>
                   </form>
                   </div>
@@ -642,17 +654,17 @@
                 <div class="inquiry-title">Inquiry Details</div>
                 <div class="inquiry-contact-info">
                   <div class="contact-card">
-                    <a href="mailto:info@example.com">
+                    <a href="mailto:info@ayurmahotsava.com">
                       <div class="icon">&#9993;</div>
                       <!-- Email Icon -->
-                      <p>info@example.com</p>
+                      <p>info@ayurmahotsava.com</p>
                     </a>
                   </div>
                   <div class="contact-card">
-                    <a href="tel:+919876543210">
+                    <a href="tel:+918239677909">
                       <div class="icon">&#9742;</div>
                       <!-- Phone Icon -->
-                      <p>+91 98765 43210</p>
+                      <p>+91 82396 77909</p>
                     </a>
                   </div>
                 </div>
@@ -663,7 +675,7 @@
       </div>
       <!-- footer -->
       <footer class="footer-wrapper">
-        <div class="footer-container" style="margin: 70px 70px 0 70px">
+        <div class="footer-container" style="margin: 0px 70px 0 70px">
           <!-- Footer Logo -->
           <div class="footer-column three columns" id="footer-widget-1">
             <div id="text-5" class="widget widget_text gdlr-item gdlr-widget footer-logo">
@@ -677,14 +689,15 @@
             <div id="recent-posts-4">
               <h3 class="gdlr-widget-title">Contact US</h3>
               <div class="footer-contact-detail">
-                <i class="fa fa-phone" aria-hidden="true"></i> +91 9724983687
+                <i class="fa fa-phone" aria-hidden="true"></i> +91 82396 77909
               </div>
               <div class="footer-contact-detail">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                maitribhimani2003@gmail.com
+                info@ayurmahotsava.com 
               </div>
               <div class="footer-contact-detail">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>Empire 36, Office No. 102, First Floor Maliya National Highway, O/p The Fern Hotel, 363642, Morbi, Gujarat. INDIA
+                <i class="fa fa-map-marker" aria-hidden="true"></i>Indradhanush Auditorium, Panchkula
+(05 KMS. away from Chandigarh)
               </div>
             </div>
           </div>
@@ -918,9 +931,9 @@
               <a href="https://theuniqueitsolution.com/">Unique IT Solution</a>
             </div>
             <div class="copyright-right">
-              <a class="footer-icon-font" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+              <a class="footer-icon-font" href="http://LinkedIn.com/AyurMahotsava"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
               <a class="footer-icon-font" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
-              <a class="footer-icon-font" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+              <a class="footer-icon-font" href="http://Instagram.com/AyurMahotsava"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
               <a class="footer-icon-font" href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
             </div>
             <div class="clear"></div>
@@ -929,6 +942,32 @@
       </footer>
     </div>
 
+
+
+    <!-- hero section slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.3.0/flickity.pkgd.min.js"></script>
+
+    <script>
+      var flkty = new Flickity('.delegate-hero-carousel', {
+        cellAlign: 'center',
+        wrapAround: true,
+        autoPlay: 3000, // Auto-slide every 3 seconds
+        pauseAutoPlayOnHover: true,
+        prevNextButtons: true,
+        pageDots: true,
+      });
+    
+      // Restart AutoPlay on manual interaction (click or drag)
+      flkty.on('settle', function () {
+        flkty.playPlayer();
+      });
+    
+      // Auto-resume after user interaction
+      document.querySelector('.delegate-hero-carousel').addEventListener('mouseleave', function () {
+        flkty.playPlayer();
+      });
+    </script>
+    
 <!-- JavaScript to Toggle Form Visibility -->
 <script>
   document.getElementById("bookNowBtn1").addEventListener("click", function () {
