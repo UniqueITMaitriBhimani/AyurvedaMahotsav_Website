@@ -43,7 +43,7 @@ body {
 }
 
 .gdlr-page-title-wrapper {
-	background-image: url('../images/home/footer\ bgim.jpg');
+	background-image: url('../images/home/footer\ bgim.jpg') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-size: 100%;
