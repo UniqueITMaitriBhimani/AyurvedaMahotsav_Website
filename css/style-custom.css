@@ -33,6 +33,12 @@ body {
 	margin-bottom: 14px;
 }
 
+.gdlr-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .gdlr-navigation-wrapper {
 	margin-top: 53px;
 }
@@ -46,7 +52,6 @@ body {
 	background-image: url('../images/home/footer\ bgim.jpg') !important;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-size: 100%;
 }
 
 body {
@@ -120,6 +125,10 @@ h6 {
 
 .gdlr-fixed-header .gdlr-header-inner {
 	background-color: #f5f5f5;
+}
+
+.gdlr-fixed-header .second-nav-logo {
+	width: 30% !important;
 }
 
 .gdlr-main-menu>.gdlr-normal-menu .sub-menu,
@@ -956,7 +965,7 @@ textarea {
 	color: #b5b5b5;
 	background-color: #ffffff;
 	border: 1px solid #bdbdbd;
-    border-radius: 5px;
+	border-radius: 5px;
 	padding: 1rem;
 }
 
@@ -1001,11 +1010,12 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-wrapper {
-	background-color: #212121;
-	/* background-image: url(../images/home/footer\ bgim.jpg); */
+	background-color: #e4e4e4;
+	/* background-image: url(../images/home/branch-fresh-green-leaves-corner-border-artificial-intelligence-generative_886951-1749-removebg-preview.png); */
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 /* .footer-wrapper {
     position: relative;
     background-color: #212121;
@@ -1032,15 +1042,16 @@ textarea:-ms-input-placeholder {
 } */
 
 .footer-content {
-    position: relative;
-    z-index: 2; /* Ensures text stays above the blur effect */
-    color: #fff;
-    text-align: center;
+	position: relative;
+	z-index: 2;
+	/* Ensures text stays above the blur effect */
+	color: #fff;
+	text-align: center;
 }
 
 .footer-wrapper .gdlr-widget-title,
 .footer-wrapper .gdlr-widget-title a {
-	color: #dddddd;
+	color: #000;
 	font-size: 17px;
 }
 
@@ -1049,7 +1060,7 @@ textarea:-ms-input-placeholder {
 }
 
 .footer-wrapper a {
-	color: #bfbfbf;
+	color: #c32026;
 }
 
 .footer-wrapper a:hover {
@@ -1058,6 +1069,7 @@ textarea:-ms-input-placeholder {
 
 .footer-wrapper * {
 	border-color: #363636;
+	color: #000;
 }
 
 .footer-wrapper input[type="text"],
@@ -1520,7 +1532,7 @@ html .woocommerce-page #content .quantity .minus:hover {
 .gdlr-skin-dark-skin .gdlr-skin-link-color {
 	color: #ff4c2f;
 	font-size: 13px;
-    font-weight: 300;
+	font-weight: 300;
 }
 
 .gdlr-skin-dark-skin a:hover,
@@ -1539,15 +1551,15 @@ html .woocommerce-page #content .quantity .minus:hover {
 .gdlr-skin-dark-skin .gdlr-skin-border {
 	border-color: #ffffff;
 	color: #c32026;
-    border-color: #292929;
-    font-size: 36px;
-    margin-bottom: 0px;
-    font-weight: 800;
-    text-transform: uppercase;
-    line-height: 1;
-    letter-spacing: 2px;
-    text-align: center;
-	
+	border-color: #292929;
+	font-size: 36px;
+	margin-bottom: 0px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 1;
+	letter-spacing: 2px;
+	text-align: center;
+
 }
 
 .gdlr-skin-dark-skin .gdlr-button,
@@ -1668,7 +1680,7 @@ html .woocommerce-page #content .quantity .minus:hover {
 .gdlr-skin-orange-skin .gdlr-column-service-item .gdlr-skin-box,
 .gdlr-skin-orange-skin .gdlr-flex-prev,
 .gdlr-skin-orange-skin .gdlr-flex-next {
-	background-color: #c32026; 
+	background-color: #c32026;
 }
 
 .gdlr-skin-orange-skin *,
@@ -1820,35 +1832,35 @@ html .woocommerce-page #content .quantity .minus:hover {
 .sponsors-prime-section {
 	padding: 60px 20px;
 	background-color: #fff;
-  }
+}
 
-  .sponsors-prime-title {
+.sponsors-prime-title {
 	text-align: center;
 	color: #8B0000;
 	font-size: 36px;
 	font-weight: bold;
 	margin-bottom: 20px;
-  }
+}
 
-  .sponsors-prime-divider {
+.sponsors-prime-divider {
 	width: 200px;
 	height: 30px;
 	margin: 0 auto 40px;
 	background-image: url('/api/placeholder/200/30');
 	background-position: center;
 	background-repeat: no-repeat;
-  }
+}
 
-  .sponsors-prime-grid {
+.sponsors-prime-grid {
 	max-width: 1200px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 25px;
 	padding: 20px;
-  }
+}
 
-  .sponsors-prime-card {
+.sponsors-prime-card {
 	background: white;
 	border: 2px solid #D4AF37;
 	border-radius: 8px;
@@ -1860,34 +1872,34 @@ html .woocommerce-page #content .quantity .minus:hover {
 	transition: transform 0.3s ease;
 	width: 100%;
 	height: 100%;
-  }
+}
 
-  .sponsors-prime-card:hover {
+.sponsors-prime-card:hover {
 	transform: translateY(-5px);
-	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .sponsors-prime-img {
+.sponsors-prime-img {
 	max-width: 100%;
 	width: 120px;
 	height: auto;
 	object-fit: contain;
-  }
+}
 
-  @media (max-width: 992px) {
+@media (max-width: 992px) {
 	.sponsors-prime-grid {
-	  grid-template-columns: repeat(3, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 	}
-  }
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.sponsors-prime-grid {
-	  grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 	}
-  }
+}
 
-  @media (max-width: 480px) {
+@media (max-width: 480px) {
 	.sponsors-prime-grid {
-	  grid-template-columns: 1fr;
+		grid-template-columns: 1fr;
 	}
-  }
+}
