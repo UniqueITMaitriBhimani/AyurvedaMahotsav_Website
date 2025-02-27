@@ -99,7 +99,6 @@ margin-top: 44px; }
 	/*--- title item ---*/
 	.gdlr-item-title-wrapper.pos-left-caption .gdlr-item-title { float: none; }
 	.gdlr-item-title-wrapper .gdlr-item-title-nav { position: static; margin-top: 15px; }
-	.gdlr-item-title-wrapper .gdlr-item-title-nav i { display: none; }
 	.gdlr-hide-in-tablet{ display: block; } 
 	.gdlr-hide-in-mobile{ display: none; } 
 	
@@ -128,9 +127,6 @@ margin-top: 44px; }
 	body .body-wrapper.gdlr-boxed-style { max-width: 340px; }
 	
 	.dl-menuwrapper .dl-menu, .dl-menuwrapper > .dl-submenu{ width: 300px; }
-	
-	.gdlr-item-title-head .gdlr-flex-prev,
-	.gdlr-item-title-head .gdlr-flex-next{ display: none; }
 	
 	.copyright-container{ text-align: center; }
 	.copyright-left{ margin-bottom: 10px; }

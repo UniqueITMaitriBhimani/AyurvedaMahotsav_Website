@@ -226,15 +226,13 @@
     font-size: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
     .header {
         padding: 15px 20px;
     }
-
     .menu-btn {
         display: block;
     }
-
     .nav-links {
         display: none;
         position: absolute;
@@ -261,6 +259,9 @@
 
     .dropdown.active .dropdown-content {
         display: block;
+    }
+    .gdlr-ticket-item .gdlr-ticket-head-title{
+        font-size: 12px
     }
 }
 
@@ -848,7 +849,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 4px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s;  
     font-size: 16px;
 }
 
@@ -1878,14 +1879,14 @@ h3 {
 
 @media (max-width: 430px) {
     .gdlr-fluid-video-wrapper-gallary {
-        width: 385px !important;
+        width: 350px !important;
         height: 200px;
     }
 }
 
 @media (max-width: 380px) {
     .gdlr-fluid-video-wrapper-gallary {
-        width: 340px !important;
+        width: 312px !important;
         height: 332px !important;
     }
 }
@@ -2031,12 +2032,56 @@ h3 {
     padding: 0 80px 20px;
 }
 
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
     .about-container {
-        padding: 0 24px 20px;
+        padding: 0 5px 10px; /* Small screen padding */
+    }
+    .about-text {
+        padding: 0px 10px 10px 10px;
+    }
+    .home-first-slider-section{
+        padding: 10px;
+    }
+    .home-registrations-sec-cards-container{
+        margin-top: 10px;
+        padding: 0;
+    }
+    .home-first-slider-button-prev, .home-first-slider-button-next{
+        width: 40px;
+        height: 40px;
+    }
+    .home-first-slider-container{
+        margin: 40px auto 10px;
+        padding-bottom: 0px;
+    }
+    .flexslider .slides img {
+        width: 81%;
+    }
+    .gdlr-speaker-thumbnail{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-wrapper .widget.gdlr-widget .footer-logo{
+        width: 50%;
+    }
+    .footer-wrapper .widget.gdlr-widget{
+        text-align: center;
+    }
+    .footer-wrapper .Quick-Links{
+        text-align: start !important;
+    }
+    .footer-widget-3{
+        display: flex;
+        justify-content: left !important;
+    }
+    .copyright-left{
+        font-size: 11px;
     }
 }
-
+.footer-widget-3{
+    display: flex;
+    justify-content: center;
+}
 .about-header {
     text-align: center;
     margin-bottom: 60px;
@@ -2120,15 +2165,26 @@ h3 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: hsla(0,0%,100%,.75);
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
-    border-radius: 5px;
+    border-radius: 50%;
 }
-
+.flickity-button-icon {
+    fill: currentColor;
+}
+.flickity-button:hover{
+    background-color: #000;
+}
+.flickity-button {
+    position: absolute;
+    background: hsla(0, 0%, 100%, .75);
+    border: none;
+    color: #333;
+}
 .prev {
     left: 10px;
 }
