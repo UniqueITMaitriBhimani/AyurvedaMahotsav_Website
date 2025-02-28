@@ -781,7 +781,11 @@ table.style-2 tr:nth-child(even) {
 .gdlr-ticket-item .gdlr-ticket-button {
 	background-color: #c32026;
 }
-
+.gdlr-ticket-item .gdlr-ticket-button:hover{
+	border: 1px solid #c32026;
+	color: #c32026;
+	background-color: #ffffff;
+}
 .gdlr-ticket-item .gdlr-ticket-button {
 	color: #ffffff;
 }

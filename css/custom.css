@@ -538,7 +538,7 @@ body {
 
 @media (max-width: 480px) {
     .counter-box {
-        min-width: 100%;
+        min-width: 46%;
         /* Single column */
     }
 
@@ -2054,9 +2054,6 @@ h3 {
         margin: 40px auto 10px;
         padding-bottom: 0px;
     }
-    .flexslider .slides img {
-        width: 81%;
-    }
     .gdlr-speaker-thumbnail{
         display: flex;
         justify-content: center;
@@ -2169,9 +2166,9 @@ h3 {
     color: white;
     border: none;
     padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
     cursor: pointer;
-    font-size: 18px;
-    border-radius: 50%;
 }
 .flickity-button-icon {
     fill: currentColor;
